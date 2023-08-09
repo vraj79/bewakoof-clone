@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  /* In this CSS code, the loader class is styled to position the loader element fixed at the top-left corner of the viewport. It covers the entire screen by using 100% width and height. The display property is set to flex to center the loader content both horizontally and vertically. The background color is set to semi-transparent black using rgba(0, 0, 0, 0.5). The z-index is set to 9999 to ensure it appears above other elements on the page. The text color is set to white (#ffffff) and the font size is set to */
+  
+  
+  
+  
+.totalItem{
+    margin-left: 13%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cartpage_container{
+    display: flex;
+    width: 75%;
+    gap: 5%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.cartPageRightSide{
+    /* border: 1px solid black; */
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+}
+.allcartproducts{
+    width: 60%;
+    border: 1px solid black;
+
+}
+.cashbackDetails{
+    border: 1px solid gray;
+    padding: 2%;
+}
+.coupon{
+    border: 1px solid wheat;
+    padding: 1%;
+    color: green;
+}
+.allPriceDetails{
+ border: 1px solid wheat;
+ padding: 2%;
+}
+.summary{
+    border: 1px solid gray;
+    padding: 1%;
+    background-color: rgb(245, 230, 230);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.totolMrp{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.shipingCharges{
+    display: flex;
+    justify-content: space-between;}
+.bagDiscount{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.button{
+    width: 200px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+.img>img{
+    width: 50px;
+}
+
+.emptyBag{
+/* border: 1px solid red; */
+text-align: center;
+margin: auto;
+margin-bottom: 100px;
+}
+.emptyBag>p{
+    font-size: 22px;
+}
+.emptyBag>div>img{
+    width: 150px;
+    margin: auto;
+
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .cartpage_container{
+        display: flex;
+        /* border: 10px solid red; */
+        width: 100wh;
+       
+        
+       justify-content: space-around;
+    }
+    .allcartproducts{
+        width: 60%;
+        border: 1px solid black;
+    
+    }
+    .cartPageRightSide{
+        border: 1px solid black;
+        width: 40%;
+        text-align: left;
+        padding: 10px;
+    }
+}
+
+
+
+@media all and (min-width: 270px) and (max-width: 767px) {
+    .cartpage_container{
+        display: block;
+         border: none;
+   
+    }
+    .cartPageRightSide{
+        border: none;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .allcartproducts{
+        width: 100%;
+        border: none;
+    
+    }
+}

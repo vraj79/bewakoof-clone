@@ -1,0 +1,41 @@
+/* .main{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 20%;
+} */
+
+.leftside{
+
+}
+
+.leftside>img{
+    
+    height: 80vh;
+    width: 100%;
+}
+header{
+    text-align: center;
+}
+
+header>p:first-child{
+    font-size: 25px;
+    font-family: montserrat-bold,sans-serif;
+    font-weight:700;
+}
+
+header>p:last-child{
+    font-size: 16px;
+   font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+    margin-bottom: 20px;
+    
+}
+
+/* form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+} */
+
